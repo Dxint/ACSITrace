@@ -27,6 +27,7 @@ It is built by a 4th-year BSIT student. The code must be clean, readable, and st
 ## Development Rules
 *   **UI/Tailwind:** Build responsive, professional layouts using Tailwind utility classes.
 *   **Completeness:** When generating or fixing code, provide complete, functional blocks. Avoid lazy placeholders like `# ... your code here`.
+*   **Readability and Simplicity:** When generating or fixing code, provide blocks that can be understood by a 4th year college student. Do not add any code unnecessary or too complex for a college capstone project.
 
 ## Key Commands
 *   Start the backend: `uvicorn main:app --reload`
