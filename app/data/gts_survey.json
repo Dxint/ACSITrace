@@ -1,0 +1,2981 @@
+{
+ "intro": "Dear Graduates,\nGreetings of Perseverance and Selfless Service!\nWe kindly request you to complete this Graduate Tracer Survey (GTS) Questionnaire as accurately and honestly as possible by checking (✓) the box corresponding to your response or providing the necessary information.\nYour responses will be used for research purposes to assess graduate employability, enhance course offerings in your alma mater, and support other universities and colleges across the Philippines in improving academic programs. .\nThis survey is intended for all graduates from the years 2020, 2021, 2022, 2023, and 2024.  \nIMPORTANT INSTRUCTIONS\nPlease use capital letters when typing your answers.\nIf a section or question is not applicable to you, please indicate \"N/A\nAll information you provide will be handled with the strictest confidentiality and used only for statistical and research purposes",
+ "sections": [
+  {
+   "id": "basic_info",
+   "title": "Basic Information",
+   "help": null,
+   "fields": [
+    {
+     "id": 993736904,
+     "type": "text",
+     "label": "Email Address",
+     "help": null,
+     "required": true,
+     "input_type": "email"
+    },
+    {
+     "id": 650723894,
+     "type": "text",
+     "label": "Mobile Number",
+     "help": null,
+     "required": true,
+     "input_type": "tel"
+    },
+    {
+     "id": 470381814,
+     "type": "text",
+     "label": "Age",
+     "help": null,
+     "required": true,
+     "input_type": "number"
+    },
+    {
+     "id": 1469431992,
+     "type": "dropdown",
+     "label": "Sex",
+     "help": null,
+     "options": [
+      {
+       "label": "Male",
+       "nav": null
+      },
+      {
+       "label": "Female",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 249112176,
+     "type": "dropdown",
+     "label": "Civil Status",
+     "help": null,
+     "options": [
+      {
+       "label": "Single",
+       "nav": null
+      },
+      {
+       "label": "Married",
+       "nav": null
+      },
+      {
+       "label": "Separated/Divorced",
+       "nav": null
+      },
+      {
+       "label": "Single Parent",
+       "nav": null
+      },
+      {
+       "label": "Widow/Widower",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1685780837,
+     "type": "radio",
+     "label": "Place of Origin",
+     "help": null,
+     "options": [
+      {
+       "label": "Zamboanga City",
+       "nav": null
+      },
+      {
+       "label": "Zamboanga Sibugay",
+       "nav": null
+      },
+      {
+       "label": "Zamboanga Del Sur",
+       "nav": null
+      },
+      {
+       "label": "BARMM AREAS",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    }
+   ],
+   "next": 735430000,
+   "final": false
+  },
+  {
+   "id": 735430000,
+   "title": "Educational Attainment in UNIVERSIDAD DE ZAMBOANGA",
+   "help": "  Please select the academic program(s) you pursued at Universidad de Zamboanga.  ",
+   "fields": [
+    {
+     "id": 1806333854,
+     "type": "radio",
+     "label": "What is your highest level of education attained from Universidad de Zamboanga (UZ)?",
+     "help": "      Please select the highest degree or combination of degrees you completed at UZ. This will help us direct you to the appropriate section of the survey based on your academic background. ",
+     "options": [
+      {
+       "label": "UZ Bachelor's Degree only",
+       "nav": 847269731
+      },
+      {
+       "label": "UZ Master's Degree  only",
+       "nav": 746074310
+      },
+      {
+       "label": "UZ Doctorate Degree only",
+       "nav": 666209840
+      },
+      {
+       "label": "UZ Bachelor's Degree and UZ Master's Degree",
+       "nav": 195984232
+      },
+      {
+       "label": "UZ Bachelor's Degree and UZ Doctorate Degree",
+       "nav": 2065524745
+      },
+      {
+       "label": "UZ Master's Degree and UZ Doctorate Degree",
+       "nav": 176985423
+      },
+      {
+       "label": "UZ Bachelor's Degree  and UZ Master's Degree and UZ Doctorate Degree",
+       "nav": 2053935777
+      }
+     ],
+     "other": false,
+     "required": true,
+     "branches": {
+      "UZ Bachelor's Degree only": 847269731,
+      "UZ Master's Degree  only": 746074310,
+      "UZ Doctorate Degree only": 666209840,
+      "UZ Bachelor's Degree and UZ Master's Degree": 195984232,
+      "UZ Bachelor's Degree and UZ Doctorate Degree": 2065524745,
+      "UZ Master's Degree and UZ Doctorate Degree": 176985423,
+      "UZ Bachelor's Degree  and UZ Master's Degree and UZ Doctorate Degree": 2053935777
+     }
+    }
+   ],
+   "next": 847269731,
+   "final": false
+  },
+  {
+   "id": 847269731,
+   "title": "UZ Bachelor's Degree Graduate Information",
+   "help": "This section is intended for respondents who completed only a bachelor’s degree at Universidad de Zamboanga. Please provide the following details about your undergraduate studies.  ",
+   "fields": [
+    {
+     "id": 72683973,
+     "type": "dropdown",
+     "label": "Bachelor's Degree",
+     "help": "Degree means Program of Study or Program of Discipline, example BS in Teacher Education.",
+     "options": [
+      {
+       "label": "Bachelor of Science in Nursing (BSN)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Pharmacy (BSPh)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Medical Technology (BSMT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Radiologic Technology (BS RadTech)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Respiratory Therapy (BSRT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Secondary Education (BSE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Elementary Education (BEEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Early Childhood Education (BECEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Physical Education (BPEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Technology and Livelihood Education (BTLEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Electronics Engineering (BSECE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Computer Engineering (BSCpE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Civil Engineering (BSCE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Information Technology (BSIT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Library and Information Science (BLIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Business Administration (BSBA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Customs Administration (BSCA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accountancy (BSA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accounting Information System (BSAIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Hospitality Management (BSHM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Entrepreneurship (BS Entre)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Tourism Management (BSTM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Criminology (BSCrim)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Police Administration (BSPolAd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Social Work (BSSW)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Mathematics (BS MATH)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in English Language Studies (BAELS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Political Science (AB-POLSC)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Broadcasting ( ABBROD)",
+       "nav": null
+      },
+      {
+       "label": "Doctor of Dental Medicine",
+       "nav": null
+      },
+      {
+       "label": "Others",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 155836898,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 72683973,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 1500312470,
+     "type": "radio",
+     "label": "Specialization",
+     "help": "Specialization means major field of study, for example Mathematics.",
+     "options": [
+      {
+       "label": "Science",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "English",
+       "nav": null
+      },
+      {
+       "label": "Math",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "General Education",
+       "nav": null
+      },
+      {
+       "label": "Marketing Management",
+       "nav": null
+      },
+      {
+       "label": "Financial Management",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 105617147,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 960015189,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "Summa Cum Laude",
+      "Magna Cum Laude",
+      "Cum Laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 746074310,
+   "title": "UZ Master's Degree Graduate Information",
+   "help": "This section is intended for respondents who completed only a master’s degree at Universidad de Zamboanga. Kindly provide details related to your graduate program.  ",
+   "fields": [
+    {
+     "id": 2072310349,
+     "type": "dropdown",
+     "label": "Master's Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Master of Arts in Education (MAED)",
+       "nav": null
+      },
+      {
+       "label": "Master of Business Administration (MBA)",
+       "nav": null
+      },
+      {
+       "label": "Master of Public Administration (MPA)",
+       "nav": null
+      },
+      {
+       "label": "Master in Library Science",
+       "nav": null
+      },
+      {
+       "label": "Master of Science in Criminal Justice (MSCRIM)",
+       "nav": null
+      },
+      {
+       "label": "Others",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1915401981,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 2072310349,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 657276115,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "School Administration and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "English Language Teaching",
+       "nav": null
+      },
+      {
+       "label": "Mathematics",
+       "nav": null
+      },
+      {
+       "label": "Science Education",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "Early Childhood Education",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1421860909,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 447411360,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Master's Degree"
+     ],
+     "cols": [
+      "Summa Cum laude",
+      "Magna Cum laude",
+      "Cum laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    },
+    {
+     "id": 2130556777,
+     "type": "grid",
+     "label": "Reason(s) for taking further studies (graduate/post-graduate) after your college degree?",
+     "help": "You may check (/) more than one answer",
+     "rows": [
+      "For Master's Degree"
+     ],
+     "cols": [
+      "High Grades in the course or subject area (s) related to the course",
+      "Good grades in high school",
+      "Influence of parents and relatives",
+      "Peer Influence",
+      "Inspired by role models",
+      "Strong passion for the profession",
+      "Prospect for immediate employment",
+      "Status or prestige of the profession",
+      "Availability of course offering in chosen institution",
+      "Prospect of career advancement",
+      "Affordable for the family",
+      "Prospect of attractive compensation",
+      "Opportunity for employment abroad",
+      "No particular choice or no better idea"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 666209840,
+   "title": "UZ Doctoral Degree Graduate Information",
+   "help": " This section is intended for respondents who earned  only a doctoral (PhD) degree at Universidad de Zamboanga. Please provide details related to your postgraduate studies.  ",
+   "fields": [
+    {
+     "id": 1421421457,
+     "type": "dropdown",
+     "label": "Doctoral Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Doctor of Philosophy in Education (Ph. D.)",
+       "nav": null
+      },
+      {
+       "label": "Doctor in Education",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 185083127,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "Curriculum and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1796121002,
+     "type": "textarea",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true
+    },
+    {
+     "id": 1063134750,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Doctoral Degree"
+     ],
+     "cols": [
+      "Summa Cum laude",
+      "Magna Cum laude",
+      "Cum laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    },
+    {
+     "id": 1173321455,
+     "type": "grid",
+     "label": "Reason(s) for taking further studies (graduate/post-graduate) after your college degree?",
+     "help": "You may check (/) more than one answer",
+     "rows": [
+      "For Doctoral Degree"
+     ],
+     "cols": [
+      "High Grades in the course or subject area (s) related to the course",
+      "Good grades in high school",
+      "Influence of parents and relatives",
+      "Peer Influence",
+      "Inspired by role models",
+      "Strong passion for the profession",
+      "Prospect for immediate employment",
+      "Status or prestige of the profession",
+      "Availability of course offering in chosen institution",
+      "Prospect of career advancement",
+      "Affordable for the family",
+      "Prospect of attractive compensation",
+      "Opportunity for employment abroad",
+      "No particular choice or no better idea"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 195984232,
+   "title": "UZ Bachelor’s and Master’s Degree Information",
+   "help": "  This section is intended for respondents who have completed both a Bachelor’s and a Master’s degree at Universidad de Zamboanga. Please provide the following details about your Bachelor's and Master's degree programs.  ",
+   "fields": [
+    {
+     "id": 1501025416,
+     "type": "dropdown",
+     "label": "Bachelor’s Degree",
+     "help": "Degree means Program of Study or Program of Discipline, example BS in Teacher Education.",
+     "options": [
+      {
+       "label": "Bachelor of Science in Nursing (BSN)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Pharmacy (BSPh)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Medical Technology (BSMT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Radiologic Technology (BS RadTech)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Respiratory Therapy (BSRT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Secondary Education (BSE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Elementary Education (BEEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Early Childhood Education (BECEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Physical Education (BPEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Technology and Livelihood Education (BTLEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Electronics Engineering (BSECE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Computer Engineering (BSCpE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Civil Engineering (BSCE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Information Technology (BSIT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Library and Information Science (BLIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Business Administration (BSBA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Customs Administration (BSCA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accountancy (BSA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accounting Information System (BSAIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Hospitality Management (BSHM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Entrepreneurship (BS Entre)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Tourism Management (BSTM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Criminology (BSCrim)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Police Administration (BSPolAd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Social Work (BSSW)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Mathematics (BS MATH)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in English Language Studies (BAELS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Political Science (AB-POLSC)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Broadcasting ( ABBROD)",
+       "nav": null
+      },
+      {
+       "label": "Doctor of Dental Medicine (DMD)",
+       "nav": null
+      },
+      {
+       "label": "Others",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1322091505,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 1501025416,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 1203414192,
+     "type": "radio",
+     "label": "Specialization",
+     "help": "Specialization means major field of study, for example Mathematics.",
+     "options": [
+      {
+       "label": "Science",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "English",
+       "nav": null
+      },
+      {
+       "label": "Math",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "General Education",
+       "nav": null
+      },
+      {
+       "label": "Marketing Management",
+       "nav": null
+      },
+      {
+       "label": "Financial Management",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1370639809,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 1867028381,
+     "type": "note",
+     "label": "MASTERS DEGREE",
+     "help": null,
+     "required": false
+    },
+    {
+     "id": 383836227,
+     "type": "dropdown",
+     "label": "Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Master of Arts in Education (MAED)",
+       "nav": null
+      },
+      {
+       "label": "Master of Business Administration (MBA)",
+       "nav": null
+      },
+      {
+       "label": "Master of Public Administration (MPA)",
+       "nav": null
+      },
+      {
+       "label": "Master in Library and information Science (MLIS)",
+       "nav": null
+      },
+      {
+       "label": "Master of Science in Criminal Justice (MSCRIM)",
+       "nav": null
+      },
+      {
+       "label": "Others",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1781537467,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 383836227,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 1531710261,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "School Administration and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "English Language Teaching",
+       "nav": null
+      },
+      {
+       "label": "Mathematics",
+       "nav": null
+      },
+      {
+       "label": "Science Education",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "Early Childhood Education",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 2056269132,
+     "type": "textarea",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true
+    },
+    {
+     "id": 1655647994,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "Summa Cum laude",
+      "Magna Cum laude",
+      "Cum laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    },
+    {
+     "id": 517110936,
+     "type": "grid",
+     "label": "Reason(s) for taking further studies (graduate/post-graduate) after your college degree?",
+     "help": "You may check (/) more than one answer",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "High Grades in the course or subject area (s) related to the course",
+      "Good grades in high school",
+      "Influence of parents and relatives",
+      "Peer Influence",
+      "Inspired by role models",
+      "Strong passion for the profession",
+      "Prospect for immediate employment",
+      "Status or prestige of the profession",
+      "Availability of course offering in chosen institution",
+      "Prospect of career advancement",
+      "Affordable for the family",
+      "Prospect of attractive compensation",
+      "Opportunity for employment abroad",
+      "No particular choice or no better idea"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 2065524745,
+   "title": "UZ Bachelor’s and Doctorate Degree Information",
+   "help": "This section is intended for respondents who have completed both a Bachelor’s degree and a Doctorate at Universidad de Zamboanga. Please provide the following details about your undergraduate and doctoral studies.",
+   "fields": [
+    {
+     "id": 289220411,
+     "type": "dropdown",
+     "label": "Bachelor's Degree",
+     "help": "Degree means Program of Study or Program of Discipline, example BS in Teacher Education.",
+     "options": [
+      {
+       "label": "Bachelor of Science in Nursing (BSN)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Pharmacy (BSPh)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Medical Technology (BSMT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Radiologic Technology (BS RadTech)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Respiratory Therapy (BSRT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Secondary Education (BSE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Elementary Education (BEEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Early Childhood Education (BECEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Physical Education (BPEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Technology and Livelihood Education (BTLEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Electronics Engineering (BSECE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Computer Engineering (BSCpE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Civil Engineering (BSCE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Information Technology (BSIT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Library and Information Science (BLIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Business Administration (BSBA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Customs Administration (BSCA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accountancy (BSA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accounting Information System (BSAIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Hospitality Management (BSHM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Entrepreneurship (BS Entre)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Tourism Management (BSTM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Criminology (BSCrim)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Police Administration (BSPolAd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Social Work (BSSW)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Mathematics (BS MATH)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in English Language Studies (BAELS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Political Science (AB-POLSC)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Broadcasting ( ABBROD)",
+       "nav": null
+      },
+      {
+       "label": "Doctor of Dental Medicine (DMD)",
+       "nav": null
+      },
+      {
+       "label": "Others",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1466441296,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 289220411,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 2076523804,
+     "type": "radio",
+     "label": "Specialization",
+     "help": "Specialization means major field of study, for example Mathematics.",
+     "options": [
+      {
+       "label": "Science",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "English",
+       "nav": null
+      },
+      {
+       "label": "Math",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "General Education",
+       "nav": null
+      },
+      {
+       "label": "Marketing Management",
+       "nav": null
+      },
+      {
+       "label": "Financial Management",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 858156859,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 905518235,
+     "type": "note",
+     "label": "DOCTORAL DEGREE",
+     "help": null,
+     "required": false
+    },
+    {
+     "id": 1892228944,
+     "type": "dropdown",
+     "label": "Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Doctor of Philosophy in Education",
+       "nav": null
+      },
+      {
+       "label": "Doctor of Education",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 750734317,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "Curriculum and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1805538442,
+     "type": "textarea",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true
+    },
+    {
+     "id": 212685603,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "Summa Cum laude",
+      "Magna Cum laude",
+      "Cum laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    },
+    {
+     "id": 6870777,
+     "type": "grid",
+     "label": "Reason(s) for taking further studies (graduate/post-graduate) after your college degree?",
+     "help": "You may check (/) more than one answer",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "High Grades in the course or subject area (s) related to the course",
+      "Good grades in high school",
+      "Influence of parents and relatives",
+      "Peer Influence",
+      "Inspired by role models",
+      "Strong passion for the profession",
+      "Prospect for immediate employment",
+      "Status or prestige of the profession",
+      "Availability of course offering in chosen institution",
+      "Prospect of career advancement",
+      "Affordable for the family",
+      "Prospect of attractive compensation",
+      "Opportunity for employment abroad",
+      "No particular choice or no better idea"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 176985423,
+   "title": "UZ Master’s and Doctorate Degree Information",
+   "help": "This section is intended for respondents who have completed both a Master’s degree and a Doctorate at Universidad de Zamboanga. Please provide the following details about your graduate and doctoral studies.",
+   "fields": [
+    {
+     "id": 7803673,
+     "type": "dropdown",
+     "label": "Master's Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Master of Arts in Education (MAED)",
+       "nav": null
+      },
+      {
+       "label": "Master of Business Administration (MBA)",
+       "nav": null
+      },
+      {
+       "label": "Master of Public Administration (MPA)",
+       "nav": null
+      },
+      {
+       "label": "Master in Library Science (MLIS)",
+       "nav": null
+      },
+      {
+       "label": "Master of Science in Criminal Justice (MSCRIM)",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 703361537,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 7803673,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 890846960,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "School Administration and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "English Language Teaching",
+       "nav": null
+      },
+      {
+       "label": "Mathematics",
+       "nav": null
+      },
+      {
+       "label": "Science Education",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "Early Childhood Education",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 205106786,
+     "type": "textarea",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true
+    },
+    {
+     "id": 677440878,
+     "type": "note",
+     "label": "DOCTORAL DEGREE",
+     "help": null,
+     "required": false
+    },
+    {
+     "id": 170534797,
+     "type": "dropdown",
+     "label": "Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Doctor of Philosophy in Education (Ph. D.)",
+       "nav": null
+      },
+      {
+       "label": "Doctor of Education",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 255334441,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "Curriculum and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 519153971,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 1268768468,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Master's Degree"
+     ],
+     "cols": [
+      "Summa Cum laude",
+      "Magna Cum laude",
+      "Cum laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    },
+    {
+     "id": 1891988848,
+     "type": "grid",
+     "label": "Reason(s) for taking further studies (graduate/post-graduate) after your college degree?",
+     "help": "You may check (/) more than one answer",
+     "rows": [
+      "For Master's Degree"
+     ],
+     "cols": [
+      "High Grades in the course or subject area (s) related to the course",
+      "Good grades in high school",
+      "Influence of parents and relatives",
+      "Peer Influence",
+      "Inspired by role models",
+      "Strong passion for the profession",
+      "Prospect for immediate employment",
+      "Status or prestige of the profession",
+      "Availability of course offering in chosen institution",
+      "Prospect of career advancement",
+      "Affordable for the family",
+      "Prospect of attractive compensation",
+      "Opportunity for employment abroad",
+      "No particular choice or no better idea"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 2053935777,
+   "title": "UZ Bachelor's, Master's, and Doctorate Graduate Information",
+   "help": "This section is intended for respondents who have completed their Bachelor’s, Master’s, and Doctorate degrees at Universidad de Zamboanga. Kindly provide the details of each degree program you have completed.",
+   "fields": [
+    {
+     "id": 957921049,
+     "type": "dropdown",
+     "label": "Bachelor's Degree",
+     "help": "Degree means Program of Study or Program of Discipline, example BS in Teacher Education.",
+     "options": [
+      {
+       "label": "Bachelor of Science in Nursing (BSN)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Pharmacy (BSPh)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Medical Technology (BSMT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Radiologic Technology (BS RadTech)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Respiratory Therapy (BSRT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Secondary Education (BSE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Elementary Education (BEEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Early Childhood Education (BECEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Physical Education (BPEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Technology and Livelihood Education (BTLEd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Electronics Engineering (BSECE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Computer Engineering (BSCpE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Civil Engineering (BSCE)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Information Technology (BSIT)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Library and Information Science (BLIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Business Administration (BSBA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Customs Administration (BSCA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accountancy (BSA)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Accounting Information System (BSAIS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Hospitality Management (BSHM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Entrepreneurship (BS Entre)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Tourism Management (BSTM)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Criminology (BSCrim)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Police Administration (BSPolAd)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Social Work (BSSW)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Science in Mathematics (BS MATH)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in English Language Studies (BAELS)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Political Science (AB-POLSC)",
+       "nav": null
+      },
+      {
+       "label": "Bachelor of Arts in Broadcasting ( ABBROD)",
+       "nav": null
+      },
+      {
+       "label": "Doctor of Dental Medicine (DMD)",
+       "nav": null
+      },
+      {
+       "label": "Others",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1141408557,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 957921049,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 159636902,
+     "type": "radio",
+     "label": "Specialization",
+     "help": "Specialization means major field of study, for example Mathematics.",
+     "options": [
+      {
+       "label": "Science",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "English",
+       "nav": null
+      },
+      {
+       "label": "Math",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "General Education",
+       "nav": null
+      },
+      {
+       "label": "Marketing Management",
+       "nav": null
+      },
+      {
+       "label": "Financial Management",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1251255124,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 1552357318,
+     "type": "note",
+     "label": "MASTERS DEGREE",
+     "help": null,
+     "required": false
+    },
+    {
+     "id": 57515380,
+     "type": "dropdown",
+     "label": "DEGREE",
+     "help": null,
+     "options": [
+      {
+       "label": "Master of Arts in Education (MAED)",
+       "nav": null
+      },
+      {
+       "label": "Master of Business Administration (MBA)",
+       "nav": null
+      },
+      {
+       "label": "Master of Public Administration (MPA)",
+       "nav": null
+      },
+      {
+       "label": "Master in Library and information Science (MLIS)",
+       "nav": null
+      },
+      {
+       "label": "Master of Science in Criminal Justice (MSCRIM)",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1266561376,
+     "type": "text",
+     "label": "IF \"OTHERS\" PLEASE SPECIFY\n\nNote: Please disregard if not applicable",
+     "help": null,
+     "required": false,
+     "input_type": "text",
+     "depends_on": {
+      "field": 57515380,
+      "equals": "Others"
+     }
+    },
+    {
+     "id": 1004225976,
+     "type": "radio",
+     "label": "SPECIALIZATION",
+     "help": null,
+     "options": [
+      {
+       "label": "School Administration and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Social Studies",
+       "nav": null
+      },
+      {
+       "label": "English Language Teaching",
+       "nav": null
+      },
+      {
+       "label": "Mathematics",
+       "nav": null
+      },
+      {
+       "label": "Science Education",
+       "nav": null
+      },
+      {
+       "label": "Filipino",
+       "nav": null
+      },
+      {
+       "label": "Early Childhood Education",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1452828210,
+     "type": "textarea",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true
+    },
+    {
+     "id": 1034897832,
+     "type": "note",
+     "label": "DOCTORAL DEGREE",
+     "help": null,
+     "required": false
+    },
+    {
+     "id": 463265879,
+     "type": "dropdown",
+     "label": "Degree",
+     "help": null,
+     "options": [
+      {
+       "label": "Doctor of Philosophy in Education (Ph. D.)",
+       "nav": null
+      },
+      {
+       "label": "Doctor in Education",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1290573332,
+     "type": "radio",
+     "label": "Specialization",
+     "help": null,
+     "options": [
+      {
+       "label": "Curriculum and Supervision",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1034912803,
+     "type": "text",
+     "label": "Year Graduated",
+     "help": null,
+     "required": true,
+     "input_type": "text"
+    },
+    {
+     "id": 1956720716,
+     "type": "grid",
+     "label": "Honor(s)/Award(s) received",
+     "help": "Honors or Awards means academic awards received in college or while earning the degree",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "Summa Cum laude",
+      "Magna Cum laude",
+      "Cum laude",
+      "Dean's Lister",
+      "Academic Excellence Award",
+      "None",
+      "Others"
+     ],
+     "grid_type": 0,
+     "required": false
+    },
+    {
+     "id": 800043504,
+     "type": "grid",
+     "label": "Reason(s) for taking further studies (graduate/post-graduate) after your college degree?",
+     "help": "You may check (/) more than one answer",
+     "rows": [
+      "For Undergraduate/AB/BS"
+     ],
+     "cols": [
+      "High Grades in the course or subject area (s) related to the course",
+      "Good grades in high school",
+      "Influence of parents and relatives",
+      "Peer Influence",
+      "Inspired by role models",
+      "Strong passion for the profession",
+      "Prospect for immediate employment",
+      "Status or prestige of the profession",
+      "Availability of course offering in chosen institution",
+      "Prospect of career advancement",
+      "Affordable for the family",
+      "Prospect of attractive compensation",
+      "Opportunity for employment abroad",
+      "No particular choice or no better idea"
+     ],
+     "grid_type": 0,
+     "required": false
+    }
+   ],
+   "next": 1915904015,
+   "final": false
+  },
+  {
+   "id": 1915904015,
+   "title": "PROFESSIONAL EXAM PASSED",
+   "help": "  A professional exam is a test taken after college to obtain a license or certification in a specific field.  ",
+   "fields": [
+    {
+     "id": 403870663,
+     "type": "checkbox",
+     "label": "Type of Exam",
+     "help": null,
+     "options": [
+      {
+       "label": "Civil Service Examination – Professional",
+       "nav": null
+      },
+      {
+       "label": "Civil Service Examination – Sub - Professional",
+       "nav": null
+      },
+      {
+       "label": "PRC/Board Examination (e.g., LET, Nursing, Engineering, etc.)",
+       "nav": null
+      },
+      {
+       "label": "Bar Examination",
+       "nav": null
+      },
+      {
+       "label": "NC II / TESDA Certification",
+       "nav": null
+      },
+      {
+       "label": "Did not take",
+       "nav": null
+      },
+      {
+       "label": "Not Applicable",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    },
+    {
+     "id": 1173442663,
+     "type": "textarea",
+     "label": "Please Specify the Type of Exam",
+     "help": "e.g. Licensure Examination for Teachers (LET)\n\n  If not applicable, type N/A",
+     "required": false
+    },
+    {
+     "id": 185647363,
+     "type": "date",
+     "label": "DateTaken",
+     "help": " Please enter the date in MM/DD/YYYY format  ",
+     "required": false
+    },
+    {
+     "id": 545672651,
+     "type": "textarea",
+     "label": "Rating",
+     "help": "  Enter your percentage score (e.g., 85%)  \n\nIf not applicable, type N/A",
+     "required": false
+    }
+   ],
+   "next": 375364912,
+   "final": false
+  },
+  {
+   "id": 375364912,
+   "title": "TRAINING(S) ADVANCE STUDIES ATTENDED AFTER COLLEGE",
+   "help": "Please list down all professional or work-related training program (s) including advanced studies you have attended after college.",
+   "fields": [
+    {
+     "id": 689386680,
+     "type": "dropdown",
+     "label": "How many training (s) did you take that are relevant to your degree?",
+     "help": null,
+     "options": [
+      {
+       "label": "0",
+       "nav": null
+      },
+      {
+       "label": "1",
+       "nav": null
+      },
+      {
+       "label": "2",
+       "nav": null
+      },
+      {
+       "label": "3",
+       "nav": null
+      },
+      {
+       "label": "4",
+       "nav": null
+      },
+      {
+       "label": "5",
+       "nav": null
+      },
+      {
+       "label": "6",
+       "nav": null
+      },
+      {
+       "label": "7 or more",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 856410141,
+     "type": "textarea",
+     "label": "List your training",
+     "help": "  If not applicable, type N/A",
+     "required": false
+    },
+    {
+     "id": 732782423,
+     "type": "dropdown",
+     "label": "What was the typical duration of the training(s) you attended?",
+     "help": "  If not applicable, type N/A",
+     "options": [
+      {
+       "label": "Less than 1 day",
+       "nav": null
+      },
+      {
+       "label": "1 day",
+       "nav": null
+      },
+      {
+       "label": "2 days",
+       "nav": null
+      },
+      {
+       "label": "3 days",
+       "nav": null
+      },
+      {
+       "label": "4 - 5 days",
+       "nav": null
+      },
+      {
+       "label": "More than 5 days",
+       "nav": null
+      },
+      {
+       "label": "No training",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 806316998,
+     "type": "checkbox",
+     "label": "What made you pursue advanced studies?",
+     "help": "You may check more than one answer.",
+     "options": [
+      {
+       "label": "For promotion",
+       "nav": null
+      },
+      {
+       "label": "For professional development and skill enhancement",
+       "nav": null
+      },
+      {
+       "label": "To gain specialized knowledge in my field",
+       "nav": null
+      },
+      {
+       "label": "To increase earning potential",
+       "nav": null
+      },
+      {
+       "label": "To fulfill personal growth and self-improvement goals",
+       "nav": null
+      },
+      {
+       "label": "To meet job requirements or industry standards",
+       "nav": null
+      },
+      {
+       "label": "To switch careers",
+       "nav": null
+      },
+      {
+       "label": "For personal interest or passion for the subject",
+       "nav": null
+      },
+      {
+       "label": "For networking opportunities",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    }
+   ],
+   "next": 432918205,
+   "final": false
+  },
+  {
+   "id": 432918205,
+   "title": "EMPLOYMENT STATUS",
+   "help": "Employment here means any type of work performed or services rendered in exchanged for compensation under a contract of hire which create the employer and employee relations.",
+   "fields": [
+    {
+     "id": 1059245488,
+     "type": "radio",
+     "label": "Are you presently employed?",
+     "help": null,
+     "options": [
+      {
+       "label": "Yes",
+       "nav": 1239513802
+      },
+      {
+       "label": "No",
+       "nav": 573012117
+      },
+      {
+       "label": "Never been employed",
+       "nav": 820569028
+      }
+     ],
+     "other": false,
+     "required": true,
+     "branches": {
+      "Yes": 1239513802,
+      "No": 573012117,
+      "Never been employed": 820569028
+     }
+    }
+   ],
+   "next": 573012117,
+   "final": false
+  },
+  {
+   "id": 573012117,
+   "title": "PREVIOUS EMPLOYMENT HISTORY",
+   "help": null,
+   "fields": [
+    {
+     "id": 1147017830,
+     "type": "radio",
+     "label": "Have you been previously employed?",
+     "help": null,
+     "options": [
+      {
+       "label": "Yes",
+       "nav": 401975541
+      },
+      {
+       "label": "No",
+       "nav": 820569028
+      }
+     ],
+     "other": false,
+     "required": true,
+     "branches": {
+      "Yes": 401975541,
+      "No": 820569028
+     }
+    }
+   ],
+   "next": 1239513802,
+   "final": false
+  },
+  {
+   "id": 1239513802,
+   "title": "PRESENT EMPLOYMENT DETAILS",
+   "help": null,
+   "fields": [
+    {
+     "id": 1168152976,
+     "type": "radio",
+     "label": "What is your present employment status?",
+     "help": "Check that box that best describe your current employment type.",
+     "options": [
+      {
+       "label": "Regular or Permanent",
+       "nav": null
+      },
+      {
+       "label": "Temporary",
+       "nav": null
+      },
+      {
+       "label": "Casual",
+       "nav": null
+      },
+      {
+       "label": "Contructual",
+       "nav": null
+      },
+      {
+       "label": "Self-employed",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 2074938555,
+     "type": "dropdown",
+     "label": "What is your present your occupation?",
+     "help": "  Please check the box that best describes your current occupation based on the Philippine Standard Occupational Classification (PSOC).  ",
+     "options": [
+      {
+       "label": "Managers (e.g., government officials, corporate executives, supervisors, school principals)",
+       "nav": null
+      },
+      {
+       "label": "Professionals (e.g., teachers, nurses, engineers, doctors, accountants, IT specialists)",
+       "nav": null
+      },
+      {
+       "label": "Technicians and Associate Professionals (e.g., medical technicians, computer support specialists, junior engineers)",
+       "nav": null
+      },
+      {
+       "label": "Clerical support Workers (e.g., secretaries, administrative assistants, clerks, encoders)",
+       "nav": null
+      },
+      {
+       "label": "Service and Sales Worker (e.g., customer service representatives, sales associates, food service staff, police officers)",
+       "nav": null
+      },
+      {
+       "label": "Skilled Agriculural, Forestry, and Fishery Workers (e.g., farmers, fishermen, farm supervisors)",
+       "nav": null
+      },
+      {
+       "label": "Craft and Related Trades Workers (e.g., electricians, plumbers, carpenters, mechanics)",
+       "nav": null
+      },
+      {
+       "label": "Plant and Machine Operators and Assemblers (e.g., drivers, factory machine operators, assemblers)",
+       "nav": null
+      },
+      {
+       "label": "Elementary Occupations (e.g., cleaners, helpers, delivery staff, messengers, janitors)",
+       "nav": null
+      },
+      {
+       "label": "Armed Forces Occupations (e.g., military personnel, enlisted soldiers, air force/navy officers)",
+       "nav": null
+      },
+      {
+       "label": "Other",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1589019675,
+     "type": "radio",
+     "label": "What is the major line of business of the company or organization you are presently employed in?",
+     "help": null,
+     "options": [
+      {
+       "label": "Agriculture, Hunting and Forestry",
+       "nav": null
+      },
+      {
+       "label": "Fishing",
+       "nav": null
+      },
+      {
+       "label": "Mining and Quarrying",
+       "nav": null
+      },
+      {
+       "label": "Manufacturing",
+       "nav": null
+      },
+      {
+       "label": "Electricity, Gas and Water Supply",
+       "nav": null
+      },
+      {
+       "label": "Construction",
+       "nav": null
+      },
+      {
+       "label": "Wholesale and Retail Trade, repair of motor vehicles, motorcycles and  personal and  household goods",
+       "nav": null
+      },
+      {
+       "label": "Hotels and Restaurants",
+       "nav": null
+      },
+      {
+       "label": "Transport Storage and Communication",
+       "nav": null
+      },
+      {
+       "label": "Financial Intermediation",
+       "nav": null
+      },
+      {
+       "label": "Real Estate, Renting and Business Activities",
+       "nav": null
+      },
+      {
+       "label": "Public Administration and Defense; Compulsory Social Security.",
+       "nav": null
+      },
+      {
+       "label": "Education",
+       "nav": null
+      },
+      {
+       "label": "Health and Social Work",
+       "nav": null
+      },
+      {
+       "label": "Other community, Social and Personal Service Activities",
+       "nav": null
+      },
+      {
+       "label": "Private Households with Employed Persons",
+       "nav": null
+      },
+      {
+       "label": "Extra-territorial Organizations and Bodies",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 1116513050,
+     "type": "radio",
+     "label": "Where is your current place of work located?",
+     "help": null,
+     "options": [
+      {
+       "label": "Local",
+       "nav": null
+      },
+      {
+       "label": "Abroad",
+       "nav": null
+      }
+     ],
+     "other": false,
+     "required": true
+    },
+    {
+     "id": 4330312,
+     "type": "radio",
+     "label": "Is this your first job after college?",
+     "help": null,
+     "options": [
+      {
+       "label": "Yes",
+       "nav": 48272464
+      },
+      {
+       "label": "No",
+       "nav": -2
+      }
+     ],
+     "other": false,
+     "required": true,
+     "branches": {
+      "Yes": 48272464,
+      "No": 401975541
+     }
+    }
+   ],
+   "next": 401975541,
+   "final": false
+  },
+  {
+   "id": 401975541,
+   "title": "REASON FOR LEAVING PREVIOUS JOB",
+   "help": null,
+   "fields": [
+    {
+     "id": 836663115,
+     "type": "checkbox",
+     "label": "What were your reason (s) for changing your job?",
+     "help": "You may choose more than one answer.",
+     "options": [
+      {
+       "label": "Salaries and benefits",
+       "nav": null
+      },
+      {
+       "label": "Career challenge",
+       "nav": null
+      },
+      {
+       "label": "Related to special skills",
+       "nav": null
+      },
+      {
+       "label": "Proximity to residence",
+       "nav": null
+      },
+      {
+       "label": "Peer Influence",
+       "nav": null
+      },
+      {
+       "label": "Family Influence",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    }
+   ],
+   "next": 48272464,
+   "final": false
+  },
+  {
+   "id": 48272464,
+   "title": "JOB RETENTION AND ACCEPTANCE FACTORS",
+   "help": null,
+   "fields": [
+    {
+     "id": 1988501416,
+     "type": "checkbox",
+     "label": "What are the reason (s) for staying on the job?",
+     "help": "You may check more than one answer.",
+     "options": [
+      {
+       "label": "Salaries and benefits",
+       "nav": null
+      },
+      {
+       "label": "Career challenge",
+       "nav": null
+      },
+      {
+       "label": "Related to special skills",
+       "nav": null
+      },
+      {
+       "label": "Related to course or program of study",
+       "nav": null
+      },
+      {
+       "label": "Proximity to residence",
+       "nav": null
+      },
+      {
+       "label": "Peer Influence",
+       "nav": null
+      },
+      {
+       "label": "Family Influence",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    },
+    {
+     "id": 494564318,
+     "type": "checkbox",
+     "label": "What were your reasons for accepting the job?",
+     "help": "You may choose more than one answer.",
+     "options": [
+      {
+       "label": "Salaries and benefits",
+       "nav": null
+      },
+      {
+       "label": "Career challenge",
+       "nav": null
+      },
+      {
+       "label": "Related to special skills",
+       "nav": null
+      },
+      {
+       "label": "Proximity to residence",
+       "nav": null
+      },
+      {
+       "label": "Peer Influence",
+       "nav": null
+      },
+      {
+       "label": "Family Influence",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    },
+    {
+     "id": 898142271,
+     "type": "radio",
+     "label": "Was your first job related to the course you took up in college?",
+     "help": null,
+     "options": [
+      {
+       "label": "Yes",
+       "nav": -2
+      },
+      {
+       "label": "No",
+       "nav": -2
+      }
+     ],
+     "other": false,
+     "required": true
+    }
+   ],
+   "next": 974047999,
+   "final": false
+  },
+  {
+   "id": 974047999,
+   "title": "FIRST JOB EXPERIENCE",
+   "help": null,
+   "fields": [
+    {
+     "id": 1915885164,
+     "type": "radio",
+     "label": "How long did you stay in your first job?",
+     "help": null,
+     "options": [
+      {
+       "label": "Less than a  month",
+       "nav": null
+      },
+      {
+       "label": "1 to 6 months",
+       "nav": null
+      },
+      {
+       "label": "7 to 11 months",
+       "nav": null
+      },
+      {
+       "label": "1 year to less than  2 years",
+       "nav": null
+      },
+      {
+       "label": "2 years to less than 3 years",
+       "nav": null
+      },
+      {
+       "label": "3 years to less than 4 years",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 391175106,
+     "type": "radio",
+     "label": "How did you find your first job?",
+     "help": null,
+     "options": [
+      {
+       "label": "Response to an advertisement",
+       "nav": null
+      },
+      {
+       "label": "As walk-in applicant",
+       "nav": null
+      },
+      {
+       "label": "Recommended by someone",
+       "nav": null
+      },
+      {
+       "label": "Information from friends",
+       "nav": null
+      },
+      {
+       "label": "Arranged by school’s job placement officer",
+       "nav": null
+      },
+      {
+       "label": "Family business",
+       "nav": null
+      },
+      {
+       "label": "Job Fair or Public Employment Service Office (PESO)",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1468324625,
+     "type": "radio",
+     "label": "How long did you land in your first job?",
+     "help": null,
+     "options": [
+      {
+       "label": "Less than a  month",
+       "nav": null
+      },
+      {
+       "label": "1 to 6 months",
+       "nav": null
+      },
+      {
+       "label": "7 to 11 months",
+       "nav": null
+      },
+      {
+       "label": "1 year to less than  2 years",
+       "nav": null
+      },
+      {
+       "label": "2 years to less than 3 years",
+       "nav": null
+      },
+      {
+       "label": "3 years to less than 4 years",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    },
+    {
+     "id": 1573867818,
+     "type": "grid",
+     "label": "What is your job level position?",
+     "help": null,
+     "rows": [
+      "First Job"
+     ],
+     "cols": [
+      "Rank or Clerical",
+      "Professional,  Technical or Supervisory",
+      "Managerial or  Executive",
+      "Self-employed",
+      "Not Applicable"
+     ],
+     "grid_type": 1,
+     "required": false
+    },
+    {
+     "id": 1580493759,
+     "type": "grid",
+     "label": "What is your initial gross monthly earning?",
+     "help": null,
+     "rows": [
+      "First Job"
+     ],
+     "cols": [
+      "Below 10,000",
+      "10,000-20,000",
+      "20,000 - 30,000",
+      "30,000 - 40,000",
+      "40,000 - 50,000",
+      "50,000 Above",
+      "Not Applicable"
+     ],
+     "grid_type": 1,
+     "required": false
+    }
+   ],
+   "next": 1538498637,
+   "final": false
+  },
+  {
+   "id": 820569028,
+   "title": "REASONS FOR UNEMPLOYMENT",
+   "help": null,
+   "fields": [
+    {
+     "id": 23842515,
+     "type": "checkbox",
+     "label": "Why are you not yet employed?",
+     "help": "You may check (/) more than one answer.",
+     "options": [
+      {
+       "label": "Advance or further study",
+       "nav": null
+      },
+      {
+       "label": "Family concern and decided not to find a job",
+       "nav": null
+      },
+      {
+       "label": "Health-related reason (s)",
+       "nav": null
+      },
+      {
+       "label": "Lack of work experience",
+       "nav": null
+      },
+      {
+       "label": "No job opportunity",
+       "nav": null
+      },
+      {
+       "label": "Did not look for a job",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    }
+   ],
+   "next": 1538498637,
+   "final": false
+  },
+  {
+   "id": 1538498637,
+   "title": "CURRICULUM RELEVANCE TO EMPLOYMENT",
+   "help": null,
+   "fields": [
+    {
+     "id": 423290665,
+     "type": "radio",
+     "label": "Was the curriculum you had in college relevant to your first job?",
+     "help": null,
+     "options": [
+      {
+       "label": "Yes",
+       "nav": 1034425318
+      },
+      {
+       "label": "No",
+       "nav": 1671713717
+      }
+     ],
+     "other": false,
+     "required": true,
+     "branches": {
+      "Yes": 1034425318,
+      "No": 1671713717
+     }
+    }
+   ],
+   "next": 1034425318,
+   "final": false
+  },
+  {
+   "id": 1034425318,
+   "title": "USEFUL COLLEGE COMPETENCIES",
+   "help": null,
+   "fields": [
+    {
+     "id": 1884703136,
+     "type": "checkbox",
+     "label": "What competencies learned in college did you find very useful in your first job?",
+     "help": null,
+     "options": [
+      {
+       "label": "Communication skills",
+       "nav": null
+      },
+      {
+       "label": "Human Relation skills",
+       "nav": null
+      },
+      {
+       "label": "Entrepreneurial skills",
+       "nav": null
+      },
+      {
+       "label": "Problem-solving skills",
+       "nav": null
+      },
+      {
+       "label": "Analytical skills",
+       "nav": null
+      },
+      {
+       "label": "Technical skills",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": false
+    }
+   ],
+   "next": 1671713717,
+   "final": false
+  },
+  {
+   "id": 1671713717,
+   "title": "ADDITIONAL INFROMATION",
+   "help": null,
+   "fields": [
+    {
+     "id": 1940040880,
+     "type": "textarea",
+     "label": "List down suggestion to further improve your course curriculum",
+     "help": null,
+     "required": false
+    },
+    {
+     "id": 495005352,
+     "type": "radio",
+     "label": "How did you find out about the Graduate Tracer Study?",
+     "help": null,
+     "options": [
+      {
+       "label": "UZ Official Facebook Page",
+       "nav": null
+      },
+      {
+       "label": "UZ Website",
+       "nav": null
+      },
+      {
+       "label": "Group Chat / Messenger",
+       "nav": null
+      },
+      {
+       "label": "Faculty / Instructor",
+       "nav": null
+      },
+      {
+       "label": "Registrar",
+       "nav": null
+      },
+      {
+       "label": "Other (please specify)",
+       "nav": null,
+       "is_other": true
+      }
+     ],
+     "other": true,
+     "required": true
+    }
+   ],
+   "next": null,
+   "final": true
+  }
+ ]
+}

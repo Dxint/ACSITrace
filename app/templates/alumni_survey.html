@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumni Graduate Tracer Survey | ACSITrace</title>
+  <link rel="stylesheet" href="/static/css/output.css">
+</head>
+<body class="bg-slate-100 text-slate-900 min-h-screen">
+
+{% macro field_wrapper_open(field) -%}
+  <div class="field-block mb-6"
+       {% if field.depends_on %}data-depends-on="{{ field.depends_on.field }}" data-depends-equals="{{ field.depends_on.equals }}" hidden{% endif %}>
+{%- endmacro %}
+
+{% macro field_label(field) -%}
+  <label class="block text-sm font-semibold text-slate-800 mb-1">
+    {{ field.label.strip() }}{% if field.required %}<span class="text-rose-600"> *</span>{% endif %}
+  </label>
+  {% if field.help %}<p class="text-xs text-slate-500 mb-2 whitespace-pre-line">{{ field.help.strip() }}</p>{% endif %}
+{%- endmacro %}
+
+{% macro other_box(field) -%}
+  {% if field.other %}
+  <div class="mt-2 pl-1" data-other-for="{{ field.id }}" hidden>
+    <input type="text" name="field_{{ field.id }}_other" placeholder="Please specify"
+           class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:ring-indigo-500">
+  </div>
+  {% endif %}
+{%- endmacro %}
+
+{% macro render_field(field) -%}
+  {% if field.type == "note" %}
+    <h3 class="text-base font-semibold text-indigo-700 mt-6 mb-3 border-b border-indigo-100 pb-1">{{ field.label.strip() }}</h3>
+
+  {% elif field.type in ("text", "date") %}
+    {{ field_wrapper_open(field) }}
+      {{ field_label(field) }}
+      <input type="{{ field.input_type or 'text' }}" name="field_{{ field.id }}" id="field_{{ field.id }}"
+             {% if field.required %}required{% endif %}
+             class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:ring-indigo-500">
+    </div>
+
+  {% elif field.type == "textarea" %}
+    {{ field_wrapper_open(field) }}
+      {{ field_label(field) }}
+      <textarea name="field_{{ field.id }}" id="field_{{ field.id }}" rows="3"
+                {% if field.required %}required{% endif %}
+                class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:ring-indigo-500"></textarea>
+    </div>
+
+  {% elif field.type == "dropdown" %}
+    {{ field_wrapper_open(field) }}
+      {{ field_label(field) }}
+      <select name="field_{{ field.id }}" id="field_{{ field.id }}"
+              {% if field.required %}required{% endif %}
+              {% if field.branches %}data-branches='{{ field.branches | tojson }}'{% endif %}
+              class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-indigo-500 focus:ring-indigo-500">
+        <option value="" disabled selected>Select an answer&hellip;</option>
+        {% for opt in field.options %}
+        <option value="{{ opt.label }}">{{ opt.label }}</option>
+        {% endfor %}
+      </select>
+      {{ other_box(field) }}
+    </div>
+
+  {% elif field.type == "radio" %}
+    {{ field_wrapper_open(field) }}
+      {{ field_label(field) }}
+      <div class="space-y-2" {% if field.branches %}data-branches='{{ field.branches | tojson }}'{% endif %}>
+        {% for opt in field.options %}
+        <label class="flex items-start gap-2 rounded-lg border border-slate-200 px-3 py-2 text-sm hover:bg-slate-50 cursor-pointer has-[:checked]:border-indigo-500 has-[:checked]:bg-indigo-50">
+          <input type="radio" name="field_{{ field.id }}" value="{{ opt.label }}" class="mt-0.5"
+                 {% if field.required %}required{% endif %}>
+          <span>{{ opt.label }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      {{ other_box(field) }}
+    </div>
+
+  {% elif field.type == "checkbox" %}
+    {{ field_wrapper_open(field) }}
+      {{ field_label(field) }}
+      <div class="space-y-2">
+        {% for opt in field.options %}
+        <label class="flex items-start gap-2 rounded-lg border border-slate-200 px-3 py-2 text-sm hover:bg-slate-50 cursor-pointer has-[:checked]:border-indigo-500 has-[:checked]:bg-indigo-50">
+          <input type="checkbox" name="field_{{ field.id }}" value="{{ opt.label }}" class="mt-0.5">
+          <span>{{ opt.label }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      {{ other_box(field) }}
+    </div>
+
+  {% elif field.type == "grid" %}
+    {{ field_wrapper_open(field) }}
+      {{ field_label(field) }}
+      <div class="overflow-x-auto rounded-lg border border-slate-200">
+        <table class="w-full text-sm">
+          <thead class="bg-slate-50">
+            <tr>
+              <th class="px-3 py-2 text-left font-medium text-slate-600"></th>
+              {% for col in field.cols %}
+              <th class="px-3 py-2 text-center font-medium text-slate-600">{{ col }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in field.rows %}
+            <tr class="border-t border-slate-200">
+              <td class="px-3 py-2 font-medium text-slate-700">{{ row }}</td>
+              {% for col in field.cols %}
+              <td class="px-3 py-2 text-center">
+                {% if field.grid_type == 1 %}
+                <input type="radio" name="field_{{ field.id }}_r{{ loop.index0 }}" value="{{ col }}">
+                {% else %}
+                <input type="checkbox" name="field_{{ field.id }}_r{{ loop.index0 }}_c{{ loop.index0 }}" value="{{ col }}">
+                {% endif %}
+              </td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  {% endif %}
+{%- endmacro %}
+
+  <div class="mx-auto max-w-3xl px-4 py-10">
+
+    <header class="mb-8 text-center">
+      <p class="text-sm font-semibold uppercase tracking-wide text-indigo-600">ACSITrace Alumni Portal</p>
+      <h1 class="mt-1 text-2xl font-bold text-slate-900 sm:text-3xl">Graduate Tracer Survey (GTS)</h1>
+    </header>
+
+    <div class="mb-8 rounded-xl border border-indigo-100 bg-indigo-50/60 p-5 text-sm leading-relaxed text-slate-700 whitespace-pre-line">{{ intro }}</div>
+
+    <div id="survey-wizard" class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
+
+      <div class="mb-6">
+        <div class="flex items-center justify-between text-xs font-medium text-slate-500">
+          <span id="progress-label">Step 1</span>
+        </div>
+        <div class="mt-2 h-2 w-full overflow-hidden rounded-full bg-slate-200">
+          <div id="progress-bar" class="h-full rounded-full bg-indigo-600 transition-all" style="width: 4%"></div>
+        </div>
+      </div>
+
+      <form id="gts-form" data-submit-url="/alumni/survey" novalidate>
+        {% for section in sections %}
+        <fieldset class="survey-step" data-step="{{ section.id }}" data-next="{{ section.next if section.next is not none else '' }}" {% if not loop.first %}hidden disabled{% endif %}>
+          <h2 class="text-lg font-bold text-slate-900">{{ section.title.strip() }}</h2>
+          {% if section.help %}<p class="mt-1 mb-4 text-sm text-slate-500 whitespace-pre-line">{{ section.help.strip() }}</p>{% else %}<div class="mb-4"></div>{% endif %}
+
+          {% for field in section.fields %}
+            {{ render_field(field) }}
+          {% endfor %}
+
+          <div class="mt-8 flex items-center justify-between border-t border-slate-100 pt-5">
+            <button type="button" data-action="back" hidden
+                    class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50">
+              &larr; Back
+            </button>
+            {% if section.final %}
+            <button type="button" data-action="submit"
+                    class="ml-auto rounded-lg bg-indigo-600 px-5 py-2 text-sm font-semibold text-white hover:bg-indigo-700">
+              Submit Survey
+            </button>
+            {% else %}
+            <button type="button" data-action="next"
+                    class="ml-auto rounded-lg bg-indigo-600 px-5 py-2 text-sm font-semibold text-white hover:bg-indigo-700">
+              Next &rarr;
+            </button>
+            {% endif %}
+          </div>
+        </fieldset>
+        {% endfor %}
+      </form>
+    </div>
+
+    <div id="survey-success" class="rounded-2xl bg-white p-10 text-center shadow-sm ring-1 ring-slate-200" hidden>
+      <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100 text-emerald-600">
+        &#10003;
+      </div>
+      <h2 class="text-lg font-bold text-slate-900">Thank you!</h2>
+      <p class="mt-2 text-sm text-slate-600">Your responses to the Graduate Tracer Survey have been received.</p>
+    </div>
+
+  </div>
+
+  <script src="/static/js/survey-wizard.js"></script>
+</body>
+</html>
